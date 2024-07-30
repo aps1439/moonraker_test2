@@ -55,7 +55,7 @@ install_packages()
 
     else
         echo "Error: system-dependencies.json not found, falling back to legacy pacakge list"
-        PKGLIST="${PKGLIST} python3-virtualenv python3-dev python3-libgpiod liblmdb-dev"
+        PKGLIST="${PKGLIST} python3-virtualenv python3-dev liblmdb-dev"
         PKGLIST="${PKGLIST} libopenjp2-7 libsodium-dev zlib1g-dev libjpeg-dev packagekit"
         PKGLIST="${PKGLIST} wireless-tools curl"
         PKGS=${PKGLIST}
